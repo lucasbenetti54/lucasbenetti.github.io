@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+Body {
+    background: rgb(41,40,40);
+    background: linear-gradient(0deg, rgba(41,40,40,1) 7%, rgba(105,101,101,1) 58%, rgba(125,124,124,1) 92%);
+}
+
+.Avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid rgb(189, 82, 82) ;
+    box-shadow: 0 0 20px white;
+
+}
+
+h1 {
+    font-family: 'Architects Daughter' ,cursive;
+    color: whitesmoke;
+    font-weight: 100;
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+}
+
+.Profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Social-img {
+    width: 30px;
+    
+}
+
+.Social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.links-style {
+    background-color: transparent;
+    padding: 15px 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 6px white;
+    border-radius: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.links-style-li {
+
+    margin: 20px 20px;
+}
+span {
+
+    color: rgb(186, 189, 189);
+    display: block;
+    margin-top: 5px;
+    font-family: 'Roboto',Arial;
+
+}
